@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-df = pd.read_csv(r"C:/Users/Harish/Downloads/data.csv")
+df = pd.read_csv(r"C:/Users/Srikanth/Downloads/data.csv")
 
 def convert_date(col):
     col = datetime.strptime(col,'%m/%d/%y %H:%M')
